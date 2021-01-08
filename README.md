@@ -1,2 +1,2 @@
 # ExUnity
-Unity "glue" code for [https://github.com/ninjapretzel/ExServer](ExServer)
+Unity "glue" code for [ExServer](https://github.com/ninjapretzel/ExServer)
