@@ -3,6 +3,7 @@ using ExClient.Utils;
 
 namespace ExClient {
 
+	/// <summary> Hook Behaviour to represent the <see cref="Ex.DisplayColors"/> server Component </summary>
 	public class DisplayColorsHook : MonoBehaviour {
 
 		[ExEntityLink.AutoRegisterChange]

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 314bfab910f67f7429a512d7f65db5f6, type: 3}
+  m_Name: Spacy_
+  m_EditorClassIdentifier: 
+  font: {fileID: 11400000, guid: 470d48ef1056a1748b00b89375866559, type: 2}
+  fontLegacy: {fileID: 12800000, guid: 7723ab66a46684146a328260b1de93a6, type: 3}
+  texture: {fileID: 0}
+  sprite: {fileID: 0}
+  subSprites: []
+  mat: {fileID: 0}
+  fontSize: -1
+  alignment: 514
+  overflow: 0
+  anchorLegacy: 4
+  horWrapLegacy: 0
+  verWrapLegacy: 1
+  autoScale: 1
+  autoSize: 0
+  imageType: 1
+  preserveAspect: 0
+  fillCenter: 1

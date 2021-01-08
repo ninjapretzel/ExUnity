@@ -7,9 +7,11 @@ using ExClient.Utils;
 using static ExClient.Utils.Res;
 
 namespace ExClient {
-
+	/// <summary> Hook Behaviour to represent the <see cref="Ex.Display"/> server Component </summary>
 	public class DisplayHook : MonoBehaviour {
+		/// <summary> assigned prefab name to display </summary>
 		public string prefab;
+		/// <summary> Created instance of the prefab </summary>
 		public Transform child;
 
 		[ExEntityLink.AutoRegisterChange]

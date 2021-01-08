@@ -6,7 +6,9 @@ using ExClient.Utils;
 
 namespace ExClient {
 
+	/// <summary> Hook Behaviour to represent the <see cref="Ex.Typed"/> server debug Component </summary>
 	public class TypedHook : MonoBehaviour {
+		/// <summary> Name of the originating entity type. </summary>
 		public string type;
 
 		[ExEntityLink.AutoRegisterChange]

@@ -4,9 +4,12 @@ using ExClient.Utils;
 using TMPro;
 
 namespace ExClient {
-	public class NameplateHook : MonoBehaviour {
 
+	/// <summary> Hook Behaviour to represent the <see cref="Ex.Nameplate"/> server Component </summary>
+	public class NameplateHook : MonoBehaviour {
+		/// <summary> Name of the entity to display </summary>
 		public string nname;
+		/// <summary> 3D text object used to display the name with </summary>
 		public TextMeshPro name3d;
 
 		[ExEntityLink.AutoRegisterChange]
